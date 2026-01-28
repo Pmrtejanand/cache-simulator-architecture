@@ -17,7 +17,7 @@ python3 src/main.py --cache_kb 16 --block 64 --assoc 4 --trace traces/sample.txt
 
 ```
 ### Sample Output
-
+```bash
 Cache Size       : 16 KB
 Block Size       : 64 B
 Associativity    : 4-way
@@ -29,7 +29,7 @@ Hit Rate         : 33.33%
 Miss Rate        : 66.67%
 AMAT             : 34.33 cycles
 
-
+```
 ## Architecture Overview
 
 - Address mapping into Index + Tag
