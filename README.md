@@ -14,8 +14,8 @@ A configurable **set-associative cache simulator** implementing **LRU replacemen
 ## Example Usage
 ```bash
 python3 src/main.py --cache_kb 16 --block 64 --assoc 4 --trace traces/sample.txt --hit_time 1 --miss_penalty 50
-
 ```
+
 ### Sample Output
 ```bash
 Cache Size       : 16 KB
@@ -28,8 +28,8 @@ Misses           : 4
 Hit Rate         : 33.33%
 Miss Rate        : 66.67%
 AMAT             : 34.33 cycles
-
 ```
+
 ## Architecture Overview
 
 - Address mapping into Index + Tag
